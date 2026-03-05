@@ -133,5 +133,109 @@ body {
 
     padding: 2em;
     text-align: center;
-
 }
+
+/*-------------------------------------------------------------------------*/
+
+/*Departure box*/
+
+.departure {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+    padding: 3rem 13rem;
+    border: solid black;
+    background: rgba(0, 200, 200, 0.7);
+    backdrop-filter: blur(6px);
+
+    width: fit-content;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.box1 {
+    padding: 1rem 4rem;
+    border: solid black;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+}
+
+.box2 {
+    padding: 1rem 5rem;
+    border:  solid black;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+}
+
+.departureTitle{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+.selectBtn{
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*Return box*/
+.return {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+    padding: 3rem 13rem;
+    border: solid black;
+    background: rgba(0, 200, 200, 0.7);
+    backdrop-filter: blur(6px);
+
+    width: fit-content;
+    margin: 2rem auto;
+    position: relative;
+}
+.box3 {
+    padding: 1rem 4rem;
+    border: solid black;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+}
+
+.box4 {
+    padding: 1rem 5rem;
+    border:  solid black;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+}
+
+
+
+.returnTitle{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+.selectBtn{
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+    border: none;
+    background: none;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+/*-------------------------------------------------------------------------*/
+
