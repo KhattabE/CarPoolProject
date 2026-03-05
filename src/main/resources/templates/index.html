@@ -1,10 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Fast &  Furious Transport</title>
+    <link rel="stylesheet" href="../public/css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
-$END$
+
+<div class="heroBanner">
+    <div id="carImage"><img src="../public/images/CarIcon.png"></div>
+    <div id="welcomeTitle"> <h1>Welcome To Fast & Furious Transport</h1> </div>
+    <div id="underWelcomeTitle"> <h3>Find people to drive with!</h3></div>
+</div>
+
+<div class="datePicker">
+    <div id="datePicking">
+        <label for="chooseDate">Vælg Dato:</label>
+        <input type="date" id="chooseDate" name="chooseDate">
+    </div>
+</div>
+
+<div class="whatAreYou">
+    <h3>Select one of the following options:</h3>
+
+    <label>
+        <input type="radio" name="role" value="Driver">
+        Driver
+    </label>
+
+    <label>
+        <input type="radio" name="role" value="Passenger">
+        Passenger
+    </label>
+</div>
+
+<div class="destination">
+    <div id="fromDestination">
+        <label for="fromLocation">From</label>
+        <select name="fromLocation" id="fromLocation">
+            <option value="Allinge">Allinge</option>
+            <option value="Tejn">Tejn</option>
+            <option value="Gudhjem">Gudhjem</option>
+            <option value="Svanneke">Svanneke</option>
+            <option value="Nexø">Nexø</option>
+        </select>
+    </div>
+    <div id="toDestination">
+        <label for="toLocation">To</label>
+        <select name="toLocation" id="toLocation">
+            <option value="Rønne">Rønne</option>
+        </select>
+    </div>
+</div>
+
+<div class="searchOptions">
+    <button type="button" onclick="window.open('result.html', '_blank')">
+        Search
+    </button>
+</div>
+
 </body>
 </html>
